@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0282B11E11AB4E3C857049 /* Pods_Clean_Cars_Clean_CarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CC588C3DFAFA89DCBB721 /* Pods_Clean_Cars_Clean_CarsUITests.framework */; };
+		7B2A0A1CBE4FD9ACBFE0713C /* Pods_Clean_CarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE049918FA3642DFDA06C33 /* Pods_Clean_CarsTests.framework */; };
 		B05B4E6E25B8DD1D00470047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E6D25B8DD1D00470047 /* AppDelegate.swift */; };
 		B05B4E7025B8DD1D00470047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E6F25B8DD1D00470047 /* SceneDelegate.swift */; };
 		B05B4E7225B8DD1D00470047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E7125B8DD1D00470047 /* ViewController.swift */; };
@@ -15,6 +17,11 @@
 		B05B4E7A25B8DD1F00470047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05B4E7825B8DD1F00470047 /* LaunchScreen.storyboard */; };
 		B05B4E8525B8DD1F00470047 /* Clean_CarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E8425B8DD1F00470047 /* Clean_CarsTests.swift */; };
 		B05B4E9025B8DD1F00470047 /* Clean_CarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E8F25B8DD1F00470047 /* Clean_CarsUITests.swift */; };
+		B05B4EA525B8FAC800470047 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4EA425B8FAC800470047 /* SignUpViewController.swift */; };
+		B05B4EAB25B8FF0500470047 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */; };
+		B05B4EAD25B9031E00470047 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4EAC25B9031E00470047 /* LoginViewController.swift */; };
+		B05B4EAF25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B05B4EAE25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg */; };
+		B6163E1FD124B02AF85EC960 /* Pods_Clean_Cars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCC4F51C688C6661D46B704 /* Pods_Clean_Cars.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DEDE6435D1015AF749B6103 /* Pods-Clean Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Cars.release.xcconfig"; path = "Target Support Files/Pods-Clean Cars/Pods-Clean Cars.release.xcconfig"; sourceTree = "<group>"; };
+		17562CEF94EC01CDBEBA2F71 /* Pods-Clean Cars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Cars.debug.xcconfig"; path = "Target Support Files/Pods-Clean Cars/Pods-Clean Cars.debug.xcconfig"; sourceTree = "<group>"; };
+		1CCC4F51C688C6661D46B704 /* Pods_Clean_Cars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Cars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB39D2D342B441829B42125 /* Pods-Clean CarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean CarsTests.release.xcconfig"; path = "Target Support Files/Pods-Clean CarsTests/Pods-Clean CarsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FE049918FA3642DFDA06C33 /* Pods_Clean_CarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_CarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961A500E359AA4202D8A3692 /* Pods-Clean Cars-Clean CarsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Cars-Clean CarsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A965B647BE2DEC4834C337C6 /* Pods-Clean Cars-Clean CarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Cars-Clean CarsUITests.release.xcconfig"; path = "Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFC8CBF8F2449B2636F0F67A /* Pods-Clean CarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean CarsTests.debug.xcconfig"; path = "Target Support Files/Pods-Clean CarsTests/Pods-Clean CarsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B05B4E6A25B8DD1D00470047 /* Clean Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05B4E6D25B8DD1D00470047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B05B4E6F25B8DD1D00470047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		B05B4E8B25B8DD1F00470047 /* Clean CarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean CarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05B4E8F25B8DD1F00470047 /* Clean_CarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_CarsUITests.swift; sourceTree = "<group>"; };
 		B05B4E9125B8DD1F00470047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05B4EA425B8FAC800470047 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B05B4EAC25B9031E00470047 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B05B4EAE25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "istockphoto-1254558432-170667a.jpg"; sourceTree = "<group>"; };
+		F35CC588C3DFAFA89DCBB721 /* Pods_Clean_Cars_Clean_CarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Cars_Clean_CarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6163E1FD124B02AF85EC960 /* Pods_Clean_Cars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2A0A1CBE4FD9ACBFE0713C /* Pods_Clean_CarsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0282B11E11AB4E3C857049 /* Pods_Clean_Cars_Clean_CarsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CDB18BABA98528E9A4A7F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC4F51C688C6661D46B704 /* Pods_Clean_Cars.framework */,
+				F35CC588C3DFAFA89DCBB721 /* Pods_Clean_Cars_Clean_CarsUITests.framework */,
+				7FE049918FA3642DFDA06C33 /* Pods_Clean_CarsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B05B4E6125B8DD1D00470047 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				B05B4E8325B8DD1F00470047 /* Clean CarsTests */,
 				B05B4E8E25B8DD1F00470047 /* Clean CarsUITests */,
 				B05B4E6B25B8DD1D00470047 /* Products */,
+				D51AA7255AB448DB667B80D8 /* Pods */,
+				2CDB18BABA98528E9A4A7F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +134,7 @@
 		B05B4E6C25B8DD1D00470047 /* Clean Cars */ = {
 			isa = PBXGroup;
 			children = (
+				B05B4EAE25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg */,
 				B05B4E6D25B8DD1D00470047 /* AppDelegate.swift */,
 				B05B4E6F25B8DD1D00470047 /* SceneDelegate.swift */,
 				B05B4E7125B8DD1D00470047 /* ViewController.swift */,
@@ -106,6 +142,9 @@
 				B05B4E7625B8DD1F00470047 /* Assets.xcassets */,
 				B05B4E7825B8DD1F00470047 /* LaunchScreen.storyboard */,
 				B05B4E7B25B8DD1F00470047 /* Info.plist */,
+				B05B4EA425B8FAC800470047 /* SignUpViewController.swift */,
+				B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */,
+				B05B4EAC25B9031E00470047 /* LoginViewController.swift */,
 			);
 			path = "Clean Cars";
 			sourceTree = "<group>";
@@ -128,6 +167,19 @@
 			path = "Clean CarsUITests";
 			sourceTree = "<group>";
 		};
+		D51AA7255AB448DB667B80D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17562CEF94EC01CDBEBA2F71 /* Pods-Clean Cars.debug.xcconfig */,
+				0DEDE6435D1015AF749B6103 /* Pods-Clean Cars.release.xcconfig */,
+				961A500E359AA4202D8A3692 /* Pods-Clean Cars-Clean CarsUITests.debug.xcconfig */,
+				A965B647BE2DEC4834C337C6 /* Pods-Clean Cars-Clean CarsUITests.release.xcconfig */,
+				AFC8CBF8F2449B2636F0F67A /* Pods-Clean CarsTests.debug.xcconfig */,
+				5CB39D2D342B441829B42125 /* Pods-Clean CarsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B05B4E9425B8DD1F00470047 /* Build configuration list for PBXNativeTarget "Clean Cars" */;
 			buildPhases = (
+				6A7479561A0D80BEB227885C /* [CP] Check Pods Manifest.lock */,
 				B05B4E6625B8DD1D00470047 /* Sources */,
 				B05B4E6725B8DD1D00470047 /* Frameworks */,
 				B05B4E6825B8DD1D00470047 /* Resources */,
+				D21F037D3D81317A16567DAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B05B4E9725B8DD1F00470047 /* Build configuration list for PBXNativeTarget "Clean CarsTests" */;
 			buildPhases = (
+				4F8EC44503DFB187045F82DC /* [CP] Check Pods Manifest.lock */,
 				B05B4E7C25B8DD1F00470047 /* Sources */,
 				B05B4E7D25B8DD1F00470047 /* Frameworks */,
 				B05B4E7E25B8DD1F00470047 /* Resources */,
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B05B4E9A25B8DD1F00470047 /* Build configuration list for PBXNativeTarget "Clean CarsUITests" */;
 			buildPhases = (
+				AF40679DF0C5A0BA39714B70 /* [CP] Check Pods Manifest.lock */,
 				B05B4E8725B8DD1F00470047 /* Sources */,
 				B05B4E8825B8DD1F00470047 /* Frameworks */,
 				B05B4E8925B8DD1F00470047 /* Resources */,
+				526AF3EB166BE7284EF7836C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05B4E7A25B8DD1F00470047 /* LaunchScreen.storyboard in Resources */,
+				B05B4EAF25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg in Resources */,
+				B05B4EAB25B8FF0500470047 /* GoogleService-Info.plist in Resources */,
 				B05B4E7725B8DD1F00470047 /* Assets.xcassets in Resources */,
 				B05B4E7525B8DD1D00470047 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +313,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F8EC44503DFB187045F82DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clean CarsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		526AF3EB166BE7284EF7836C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7479561A0D80BEB227885C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clean Cars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF40679DF0C5A0BA39714B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clean Cars-Clean CarsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21F037D3D81317A16567DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clean Cars/Pods-Clean Cars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clean Cars/Pods-Clean Cars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clean Cars/Pods-Clean Cars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B05B4E6625B8DD1D00470047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +423,8 @@
 			files = (
 				B05B4E7225B8DD1D00470047 /* ViewController.swift in Sources */,
 				B05B4E6E25B8DD1D00470047 /* AppDelegate.swift in Sources */,
+				B05B4EA525B8FAC800470047 /* SignUpViewController.swift in Sources */,
+				B05B4EAD25B9031E00470047 /* LoginViewController.swift in Sources */,
 				B05B4E7025B8DD1D00470047 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +596,7 @@
 		};
 		B05B4E9525B8DD1F00470047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17562CEF94EC01CDBEBA2F71 /* Pods-Clean Cars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +614,7 @@
 		};
 		B05B4E9625B8DD1F00470047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEDE6435D1015AF749B6103 /* Pods-Clean Cars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +632,7 @@
 		};
 		B05B4E9825B8DD1F00470047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC8CBF8F2449B2636F0F67A /* Pods-Clean CarsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +654,7 @@
 		};
 		B05B4E9925B8DD1F00470047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB39D2D342B441829B42125 /* Pods-Clean CarsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +676,7 @@
 		};
 		B05B4E9B25B8DD1F00470047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961A500E359AA4202D8A3692 /* Pods-Clean Cars-Clean CarsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +696,7 @@
 		};
 		B05B4E9C25B8DD1F00470047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A965B647BE2DEC4834C337C6 /* Pods-Clean Cars-Clean CarsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
