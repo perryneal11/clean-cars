@@ -10,6 +10,8 @@
 		6B0282B11E11AB4E3C857049 /* Pods_Clean_Cars_Clean_CarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CC588C3DFAFA89DCBB721 /* Pods_Clean_Cars_Clean_CarsUITests.framework */; };
 		7B2A0A1CBE4FD9ACBFE0713C /* Pods_Clean_CarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE049918FA3642DFDA06C33 /* Pods_Clean_CarsTests.framework */; };
 		B04B203725BB16590042EB22 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B203625BB16590042EB22 /* ForgotPasswordViewController.swift */; };
+		B04B203925BB2A2F0042EB22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B203825BB2A2F0042EB22 /* HomeViewController.swift */; };
+		B04B203B25BB506C0042EB22 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B203A25BB506C0042EB22 /* StartViewController.swift */; };
 		B05B4E6E25B8DD1D00470047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E6D25B8DD1D00470047 /* AppDelegate.swift */; };
 		B05B4E7025B8DD1D00470047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E6F25B8DD1D00470047 /* SceneDelegate.swift */; };
 		B05B4E7225B8DD1D00470047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4E7125B8DD1D00470047 /* ViewController.swift */; };
@@ -52,6 +54,8 @@
 		A965B647BE2DEC4834C337C6 /* Pods-Clean Cars-Clean CarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Cars-Clean CarsUITests.release.xcconfig"; path = "Target Support Files/Pods-Clean Cars-Clean CarsUITests/Pods-Clean Cars-Clean CarsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AFC8CBF8F2449B2636F0F67A /* Pods-Clean CarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean CarsTests.debug.xcconfig"; path = "Target Support Files/Pods-Clean CarsTests/Pods-Clean CarsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B04B203625BB16590042EB22 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B04B203825BB2A2F0042EB22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B04B203A25BB506C0042EB22 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		B05B4E6A25B8DD1D00470047 /* Clean Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05B4E6D25B8DD1D00470047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B05B4E6F25B8DD1D00470047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */,
 				B05B4EAC25B9031E00470047 /* LoginViewController.swift */,
 				B04B203625BB16590042EB22 /* ForgotPasswordViewController.swift */,
+				B04B203825BB2A2F0042EB22 /* HomeViewController.swift */,
+				B04B203A25BB506C0042EB22 /* StartViewController.swift */,
 			);
 			path = "Clean Cars";
 			sourceTree = "<group>";
@@ -425,10 +431,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05B4E7225B8DD1D00470047 /* ViewController.swift in Sources */,
+				B04B203B25BB506C0042EB22 /* StartViewController.swift in Sources */,
 				B05B4E6E25B8DD1D00470047 /* AppDelegate.swift in Sources */,
 				B04B203725BB16590042EB22 /* ForgotPasswordViewController.swift in Sources */,
 				B05B4EA525B8FAC800470047 /* SignUpViewController.swift in Sources */,
 				B05B4EAD25B9031E00470047 /* LoginViewController.swift in Sources */,
+				B04B203925BB2A2F0042EB22 /* HomeViewController.swift in Sources */,
 				B05B4E7025B8DD1D00470047 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
