@@ -9,18 +9,27 @@
 import UIKit
 import FirebaseDatabase
 import FirebaseAuth
+import MapKit
 
 class HomeViewController: UIViewController, UITableViewDataSource {
     let ref: DatabaseReference! = Database.database().reference()
     let userID = Auth.auth().currentUser?.uid
     var cleaningDictionary: [String : String] = [:]
+    let locationManager:CLLocationManager = CLLocationManager()
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var mapView: MKMapView!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.distanceFilter = kCLHeadingFilterNone
+        locationManager.startUpdatingLocation()
+        
+        mapView.showsUserLocation = true
+        
         ref.child("users").child(userID!).child("cleanings").observeSingleEvent(of: .value) { (DataSnapshot) in
                 print(DataSnapshot)
 
