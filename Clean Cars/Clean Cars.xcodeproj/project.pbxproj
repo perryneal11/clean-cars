@@ -24,6 +24,8 @@
 		B05B4EAB25B8FF0500470047 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */; };
 		B05B4EAD25B9031E00470047 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B4EAC25B9031E00470047 /* LoginViewController.swift */; };
 		B05B4EAF25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B05B4EAE25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg */; };
+		B0E66BA725C37AB8005F29E3 /* addVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E66BA625C37AB8005F29E3 /* addVehicleViewController.swift */; };
+		B0E66BA925C3820B005F29E3 /* makeSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E66BA825C3820B005F29E3 /* makeSearchTextField.swift */; };
 		B6163E1FD124B02AF85EC960 /* Pods_Clean_Cars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCC4F51C688C6661D46B704 /* Pods_Clean_Cars.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		B05B4EAA25B8FF0500470047 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B05B4EAC25B9031E00470047 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B05B4EAE25B9CB0F00470047 /* istockphoto-1254558432-170667a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "istockphoto-1254558432-170667a.jpg"; sourceTree = "<group>"; };
+		B0E66BA625C37AB8005F29E3 /* addVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVehicleViewController.swift; sourceTree = "<group>"; };
+		B0E66BA825C3820B005F29E3 /* makeSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeSearchTextField.swift; sourceTree = "<group>"; };
 		F35CC588C3DFAFA89DCBB721 /* Pods_Clean_Cars_Clean_CarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Cars_Clean_CarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -154,6 +158,8 @@
 				B04B203625BB16590042EB22 /* ForgotPasswordViewController.swift */,
 				B04B203825BB2A2F0042EB22 /* HomeViewController.swift */,
 				B04B203A25BB506C0042EB22 /* StartViewController.swift */,
+				B0E66BA625C37AB8005F29E3 /* addVehicleViewController.swift */,
+				B0E66BA825C3820B005F29E3 /* makeSearchTextField.swift */,
 			);
 			path = "Clean Cars";
 			sourceTree = "<group>";
@@ -438,6 +444,8 @@
 				B05B4EAD25B9031E00470047 /* LoginViewController.swift in Sources */,
 				B04B203925BB2A2F0042EB22 /* HomeViewController.swift in Sources */,
 				B05B4E7025B8DD1D00470047 /* SceneDelegate.swift in Sources */,
+				B0E66BA725C37AB8005F29E3 /* addVehicleViewController.swift in Sources */,
+				B0E66BA925C3820B005F29E3 /* makeSearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
